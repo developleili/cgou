@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_order/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_pay/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_file/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_goods/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_syscenter/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/cgou_service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_transaction_fescar/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_common/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_common_db/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service_api/cgou_service_goods_api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-common-db/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou_service_api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-transaction-fescar/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-goods-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-pay/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou_service_seckill/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou_service_user/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-syscenter/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-file-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-order-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-pay-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-seckill-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-syscenter-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-content/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-canal/pom.xml" />
+        <option value="D:/develop/canal/spring-boot-starter-canal/starter-canal/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-business-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-business/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service/cgou-service-search/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-web/cgou-web-search/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-web/cgou-web-item/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou-service-item-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-common-db/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-common-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/cgou-parent/cgou-user-auth/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cgou_parent/cgou-service-api/cgou_service_goods_api/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://D:/develop/canal/spring-boot-starter-canal/starter-canal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common-db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-gateway/cgou-gateway-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-gateway/cgou-gateway-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-gateway/cgou-gateway-web/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java/xyz/lilei/cgou/oauth/config/AuthorizationServerConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java/xyz/lilei/cgou/oauth/config/CustomUserAuthenticationConverter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java/xyz/lilei/cgou/oauth/util/AuthToken.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java/xyz/lilei/cgou/oauth/util/CookieUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/java/xyz/lilei/cgou/oauth/util/UserJwt.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-oauth/src/main/resources/public.key" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/AddressFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/AreasFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/CitiesFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/OauthClientDetailsFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/ProvincesFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/UndoLogFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/feign/UserFeign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/Address.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/Areas.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/Cities.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/OauthClientDetails.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/Provinces.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/UndoLog.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service-api/cgou-service-user-api/src/main/java/xyz/lilei/cgou/user/pojo/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-business/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-canal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-content/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-seckill/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-syscenter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-transaction-fescar/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-item/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-search/src/main/java" charset="UTF-8" />
+    <file url="file://F:/code/spring-framework/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

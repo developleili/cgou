@@ -1,0 +1,6 @@
+xyz\lilei\cgou\business\pojo\Ad.class
+xyz\lilei\cgou\business\pojo\UndoLog.class
+xyz\lilei\cgou\business\feign\AdFeign.class
+xyz\lilei\cgou\business\pojo\Activity.class
+xyz\lilei\cgou\business\feign\ActivityFeign.class
+xyz\lilei\cgou\business\feign\UndoLogFeign.class

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>xyz.lilei</groupId>
+        <artifactId>cgou-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>cgou-service</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>cgou-service-file</module>
+        <module>cgou-service-goods</module>
+        <module>cgou-service-canal</module>
+        <module>cgou-service-content</module>
+        <module>cgou-service-business</module>
+        <module>cgou-service-order</module>
+        <module>cgou-service-search</module>
+        <module>cgou-service-pay</module>
+        <module>cgou-service-syscenter</module>
+        <module>cgou-service-file</module>
+        <module>cgou-service-seckill</module>
+        <module>cgou-service-user</module>
+    </modules>
+    <!--依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>xyz.lilei</groupId>
+            <artifactId>cgou-common-db</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,34 @@
+server:
+  port: 18086
+spring:
+  application:
+    name: search
+  data:
+    elasticsearch:
+      cluster-name: es-docker-cluster #Elasticsearch的集群节点名称，这里需要和Elasticsearch集群节点名称保持一致
+      cluster-nodes: 192.168.168.14:9200 #Elasticsearch节点通信地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+#超时配置
+ribbon:
+  ReadTimeout: 300000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+
+logging:
+  pattern:
+    console: '%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n'
+    file: '%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n'

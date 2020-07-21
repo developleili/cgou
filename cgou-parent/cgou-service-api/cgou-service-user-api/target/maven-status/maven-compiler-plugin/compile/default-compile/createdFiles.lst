@@ -1,0 +1,15 @@
+xyz\lilei\cgou\user\pojo\Areas.class
+xyz\lilei\cgou\user\pojo\UndoLog.class
+xyz\lilei\cgou\user\feign\OauthClientDetailsFeign.class
+xyz\lilei\cgou\user\feign\UndoLogFeign.class
+xyz\lilei\cgou\user\feign\ProvincesFeign.class
+xyz\lilei\cgou\user\pojo\Provinces.class
+xyz\lilei\cgou\user\dto\UserLoginDto.class
+xyz\lilei\cgou\user\feign\UserFeign.class
+xyz\lilei\cgou\user\feign\AreasFeign.class
+xyz\lilei\cgou\user\feign\CitiesFeign.class
+xyz\lilei\cgou\user\pojo\Address.class
+xyz\lilei\cgou\user\pojo\OauthClientDetails.class
+xyz\lilei\cgou\user\feign\AddressFeign.class
+xyz\lilei\cgou\user\pojo\User.class
+xyz\lilei\cgou\user\pojo\Cities.class

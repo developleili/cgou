@@ -1,0 +1,54 @@
+server:
+  port: 18082
+spring:
+  application:
+    name: canal
+  redis:
+    host: 192.168.168.14
+    port: 6379
+    password: 123456
+    database: 0
+  main:
+    allow-bean-definition-overriding: true
+  rabbitmq:
+    host: 192.168.168.14
+    port: 5672
+    username: admin
+    password: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+#hystrix 配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制
+          enabled: true
+        isolation:
+          strategy: SEMAPHORE
+#canal配置
+canal:
+  client:
+    instances:
+      example:
+        host: 192.168.168.14
+        port: 11111
+
+logging:
+  pattern:
+    console: '%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n'
+    file: '%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n'
+cgou:
+  amqp:
+    host: 192.168.168.14
+    username: admin
+    possword: admin
+    publisher-confirms: true

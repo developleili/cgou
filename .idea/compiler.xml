@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cgou-common-db" />
+        <module name="cgou-web-item" />
+        <module name="cgou-service-user-api" />
+        <module name="cgou-service-syscenter-api" />
+        <module name="starter-canal" />
+        <module name="cgou-gateway-web" />
+        <module name="cgou-service-goods-api" />
+        <module name="cgou-service-pay-api" />
+        <module name="cgou-service-seckill" />
+        <module name="cgou-common-mq" />
+        <module name="cgou-service-goods" />
+        <module name="cgou-service-order" />
+        <module name="cgou-transaction-fescar" />
+        <module name="cgou-service-business-api" />
+        <module name="cgou-service-content-api" />
+        <module name="cgou-service-file-api" />
+        <module name="cgou-service-order-api" />
+        <module name="cgou-oauth" />
+        <module name="cgou-service-business" />
+        <module name="cgou-service-pay" />
+        <module name="cgou-service-syscenter" />
+        <module name="cgou_service_goods_api" />
+        <module name="cgou-gateway-system" />
+        <module name="cgou-common" />
+        <module name="cgou-web-search" />
+        <module name="cgou-eureka" />
+        <module name="cgou-service-canal" />
+        <module name="cgou-service-user" />
+        <module name="cgou-service-content" />
+        <module name="cgou-service-search" />
+        <module name="cgou-service-file" />
+        <module name="cgou-service-seckill-api" />
+        <module name="cgou-service-item-api" />
+        <module name="cgou-service-search-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cgou" target="1.8" />
+      <module name="cgou_parent" target="1.8" />
+      <module name="cgou_service_goods" target="1.8" />
+      <module name="cgou_service_goods_api" target="1.8" />
+      <module name="cgou_service_order" target="1.8" />
+      <module name="cgou_service_pay" target="1.8" />
+      <module name="cgou_service_seckill" target="1.8" />
+      <module name="cgou_service_syscenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cgou-common" options="-parameters" />
+      <module name="cgou-common-db" options="-parameters" />
+      <module name="cgou-common-mq" options="-parameters" />
+      <module name="cgou-eureka" options="-parameters" />
+      <module name="cgou-gateway-system" options="-parameters" />
+      <module name="cgou-gateway-web" options="-parameters" />
+      <module name="cgou-oauth" options="-parameters" />
+      <module name="cgou-service-business" options="-parameters" />
+      <module name="cgou-service-canal" options="-parameters" />
+      <module name="cgou-service-content" options="-parameters" />
+      <module name="cgou-service-file" options="-parameters" />
+      <module name="cgou-service-goods" options="-parameters" />
+      <module name="cgou-service-order" options="-parameters" />
+      <module name="cgou-service-pay" options="-parameters" />
+      <module name="cgou-service-search" options="-parameters" />
+      <module name="cgou-service-seckill" options="-parameters" />
+      <module name="cgou-service-syscenter" options="-parameters" />
+      <module name="cgou-service-user" options="-parameters" />
+      <module name="cgou-transaction-fescar" options="-parameters" />
+      <module name="cgou-web" options="-parameters" />
+      <module name="cgou-web-item" options="-parameters" />
+      <module name="cgou-web-search" options="-parameters" />
+      <module name="cgou_parent" options="-parameters" />
+      <module name="cgou_service_goods" options="" />
+      <module name="cgou_service_goods_api" options="" />
+      <module name="cgou_service_order" options="-parameters" />
+      <module name="cgou_service_pay" options="-parameters" />
+      <module name="cgou_service_seckill" options="-parameters" />
+      <module name="cgou_service_syscenter" options="-parameters" />
+      <module name="starter-canal" options="-parameters" />
+    </option>
+  </component>
+</project>
