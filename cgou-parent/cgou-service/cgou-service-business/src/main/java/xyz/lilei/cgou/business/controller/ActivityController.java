@@ -1,4 +1,5 @@
 package xyz.lilei.cgou.business.controller;
+import com.netflix.hystrix.HystrixCommand;
 import xyz.lilei.cgou.business.pojo.Activity;
 import xyz.lilei.cgou.business.service.ActivityService;
 import com.github.pagehelper.PageInfo;
@@ -44,6 +45,7 @@ public class ActivityController {
      * @return
      */
     @GetMapping(value = "/search/{page}/{size}" )
+
     public Result<PageInfo> findPage(@PathVariable  int page, @PathVariable  int size){
         //调用ActivityService实现分页查询Activity
         PageInfo<Activity> pageInfo = activityService.findPage(page, size);

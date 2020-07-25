@@ -13,6 +13,18 @@ spring:
     port: 5672
     username: admin
     password: admin
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:9001/
+      fail-fast: true
+      # 默 认 重 试 的 间 隔 时 间 ， 默 认 1000ms
+      retry:
+        multiplier: 1.1
+        max-attempts: 6
+        max-interval: 2000
+        initial-interval: 1000
 eureka:
   client:
     service-url:

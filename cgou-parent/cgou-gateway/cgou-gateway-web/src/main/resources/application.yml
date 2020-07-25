@@ -23,31 +23,39 @@ spring:
           - StripPrefix=1 #过滤请求路径中的第一个路径
           - name: RequestRateLimiter
             args:
-              key-resolver: "#{@ipResolver}"
+              key-resolver: "#{@ipKeyResolver}"
               redis-rate-limiter.replenishRate: 10
               redis-rate-limiter.burstCapacity: 10
         - id: cgou-user-route
-          uri: lb//user
+          uri: lb://user
           predicates:
           - Path=/api/user/**, /api/address/**,/api/areas/**, /api/cities/**, /api/provinces/**
           filters:
             - StripPrefix=1
         - id: cgou-order-route
-          uri: lb//order
+          uri: lb://order
           predicates:
           - Path=/api/cart/**,/api/categoryReport/**,/api/orderConfig/**,/api/order/**,/api/orderItem/**,/api/orderLog/**,/api/preferential/**,/api/returnCause/**,/api/returnOrder/**,/api/returnOrderItem/**
           filters:
             - StripPrefix=1
-  instance:
-    prefer-ip-address: true
+
   redis:
     password: 123456
     host: 192.168.168.14
     port: 6379
-    lettuce:
-      pool:
-        max-active: 10
-
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      # 收集日志的百分比
+      probability: 1.0
+  zipkin:
+    base-url: http://localhost:9411/
+  # 若 在 同 一 个 注 册 中 心 的 话 可 以 启 用 自 动 发 现 ， 省 略 base-url
+  #locator:
+    #  discovery:
+    #    enabled: true
 management:
   endpoint:
     gateway:
@@ -56,6 +64,8 @@ management:
       exposure:
         include: true
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka

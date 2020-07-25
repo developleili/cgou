@@ -8,8 +8,8 @@
         <artifactId>cgou-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>cgou-common</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>cgou-common</artifactId>    <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <!--web起步依赖-->
         <dependency>

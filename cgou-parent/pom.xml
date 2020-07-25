@@ -19,6 +19,7 @@
         <module>cgou-eureka</module>
         <module>cgou-transaction-fescar</module>
         <module>cgou-oauth</module>
+        <module>cgou-config</module>
     </modules>
 
     <parent>

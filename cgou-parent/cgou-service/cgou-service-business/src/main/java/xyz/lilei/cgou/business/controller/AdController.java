@@ -1,4 +1,5 @@
 package xyz.lilei.cgou.business.controller;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import xyz.lilei.cgou.business.pojo.Ad;
 import xyz.lilei.cgou.business.service.AdService;
 import com.github.pagehelper.PageInfo;
@@ -107,6 +108,7 @@ public class AdController {
      * @return
      */
     @GetMapping("/{id}")
+    @HystrixCommand
     public Result<Ad> findById(@PathVariable Integer id){
         //调用AdService实现根据主键查询Ad
         Ad ad = adService.findById(id);

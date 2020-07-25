@@ -11,10 +11,16 @@
 
     <artifactId>cgou-gateway-web</artifactId>
     <dependencies>
+
         <!--oauth依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
+        </dependency>
+        <!-- 调用链 ZipKin -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
     </dependencies>
 

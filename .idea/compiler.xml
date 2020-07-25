@@ -7,19 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cgou-service-file" />
         <module name="cgou-common-db" />
         <module name="cgou-web-item" />
+        <module name="cgou-service-item-api" />
         <module name="cgou-service-user-api" />
         <module name="cgou-service-syscenter-api" />
         <module name="starter-canal" />
         <module name="cgou-gateway-web" />
+        <module name="cgou-config" />
         <module name="cgou-service-goods-api" />
-        <module name="cgou-service-pay-api" />
-        <module name="cgou-service-seckill" />
         <module name="cgou-common-mq" />
         <module name="cgou-service-goods" />
         <module name="cgou-service-order" />
         <module name="cgou-transaction-fescar" />
+        <module name="cgou-sleuth" />
         <module name="cgou-service-business-api" />
         <module name="cgou-service-content-api" />
         <module name="cgou-service-file-api" />
@@ -37,14 +39,53 @@
         <module name="cgou-service-user" />
         <module name="cgou-service-content" />
         <module name="cgou-service-search" />
-        <module name="cgou-service-file" />
+        <module name="cgou-service-seckill" />
         <module name="cgou-service-seckill-api" />
-        <module name="cgou-service-item-api" />
+        <module name="cgou-service-pay-api" />
         <module name="cgou-service-search-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="cgou" target="1.8" />
+      <module name="cgou-common" target="1.8" />
+      <module name="cgou-common-db" target="1.8" />
+      <module name="cgou-common-mq" target="1.8" />
+      <module name="cgou-config" target="1.8" />
+      <module name="cgou-eureka" target="1.8" />
+      <module name="cgou-gateway" target="1.8" />
+      <module name="cgou-gateway-system" target="1.8" />
+      <module name="cgou-gateway-web" target="1.8" />
+      <module name="cgou-oauth" target="1.8" />
+      <module name="cgou-parent" target="1.8" />
+      <module name="cgou-service" target="1.8" />
+      <module name="cgou-service-api" target="1.8" />
+      <module name="cgou-service-business" target="1.8" />
+      <module name="cgou-service-business-api" target="1.8" />
+      <module name="cgou-service-canal" target="1.8" />
+      <module name="cgou-service-content" target="1.8" />
+      <module name="cgou-service-content-api" target="1.8" />
+      <module name="cgou-service-file" target="1.8" />
+      <module name="cgou-service-file-api" target="1.8" />
+      <module name="cgou-service-goods" target="1.8" />
+      <module name="cgou-service-goods-api" target="1.8" />
+      <module name="cgou-service-item-api" target="1.8" />
+      <module name="cgou-service-order" target="1.8" />
+      <module name="cgou-service-order-api" target="1.8" />
+      <module name="cgou-service-pay" target="1.8" />
+      <module name="cgou-service-pay-api" target="1.8" />
+      <module name="cgou-service-search" target="1.8" />
+      <module name="cgou-service-search-api" target="1.8" />
+      <module name="cgou-service-seckill" target="1.8" />
+      <module name="cgou-service-seckill-api" target="1.8" />
+      <module name="cgou-service-syscenter" target="1.8" />
+      <module name="cgou-service-syscenter-api" target="1.8" />
+      <module name="cgou-service-user" target="1.8" />
+      <module name="cgou-service-user-api" target="1.8" />
+      <module name="cgou-sleuth" target="1.8" />
+      <module name="cgou-transaction-fescar" target="1.8" />
+      <module name="cgou-web" target="1.8" />
+      <module name="cgou-web-item" target="1.8" />
+      <module name="cgou-web-search" target="1.8" />
       <module name="cgou_parent" target="1.8" />
       <module name="cgou_service_goods" target="1.8" />
       <module name="cgou_service_goods_api" target="1.8" />
@@ -52,6 +93,7 @@
       <module name="cgou_service_pay" target="1.8" />
       <module name="cgou_service_seckill" target="1.8" />
       <module name="cgou_service_syscenter" target="1.8" />
+      <module name="starter-canal" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -59,6 +101,7 @@
       <module name="cgou-common" options="-parameters" />
       <module name="cgou-common-db" options="-parameters" />
       <module name="cgou-common-mq" options="-parameters" />
+      <module name="cgou-config" options="-parameters" />
       <module name="cgou-eureka" options="-parameters" />
       <module name="cgou-gateway-system" options="-parameters" />
       <module name="cgou-gateway-web" options="-parameters" />
@@ -74,6 +117,7 @@
       <module name="cgou-service-seckill" options="-parameters" />
       <module name="cgou-service-syscenter" options="-parameters" />
       <module name="cgou-service-user" options="-parameters" />
+      <module name="cgou-sleuth" options="-parameters" />
       <module name="cgou-transaction-fescar" options="-parameters" />
       <module name="cgou-web" options="-parameters" />
       <module name="cgou-web-item" options="-parameters" />

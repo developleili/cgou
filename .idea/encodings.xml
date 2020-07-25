@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common-db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common-mq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-gateway/cgou-gateway-system/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-gateway/cgou-gateway-web/src/main/java" charset="UTF-8" />
@@ -43,11 +44,11 @@
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-syscenter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-service/cgou-service-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgou-parent/cgou-sleuth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-transaction-fescar/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-item/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-item/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cgou-parent/cgou-web/cgou-web-search/src/main/java" charset="UTF-8" />
-    <file url="file://F:/code/spring-framework/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
